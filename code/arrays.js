@@ -12,8 +12,6 @@ stations = ["Dundee", "Edinburgh", "North Berwick", "Newcastle", "York", "Leeds"
 stations.push("Kings Cross");
 console.log(stations);
 
-
-
 /**
  * Q2.
  * It doesn't go as far as Dundee either, so remove it from the start of the array.
@@ -21,8 +19,6 @@ console.log(stations);
 
 stations.shift();
 console.log(stations);
-
-
 
 /**
  * Q3.
@@ -32,8 +28,6 @@ console.log(stations);
 stationCount = stations.length;
 console.log("There are " + stationCount + " stations.");
 
-
-
 /**
  * Q4.
  * Which station is the third stop?
@@ -42,16 +36,12 @@ console.log("There are " + stationCount + " stations.");
 thirdStation = stations[2];
 console.log("The third station is " + thirdStation);
 
-
-
 /**
  * Q5.
  * Someone put the wrong Berwick on the timetable! Update "North Berwick" to "Berwick-upon-Tweed".
  */
 stations[1] = "Berwick-upon-Tweed";
 console.log(stations);
-
-
 
 /**
  * Q6.
@@ -60,16 +50,12 @@ console.log(stations);
 stations.splice(4, 1);
 console.log(stations);
 
-
-
 /**
  * Q7.
  * We forgot about Darlington! Add it to the route between Newcastle and York.
  */
 stations.splice(3, 0, "Darlington");
 console.log(stations);
-
-
 
 /**
  * Q8.
@@ -78,7 +64,6 @@ console.log(stations);
 
 stoppingAtDurham = false;
 console.log(stoppingAtDurham);
-
 
 /**
  * Q9.

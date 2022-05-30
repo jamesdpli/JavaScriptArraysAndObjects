@@ -69,6 +69,20 @@ console.log(northernIrelandKeys);
 
 scotland = unitedKingdom[0];
 
+// Q4 solution
+if(scotland.population > england.population && scotland.population > wales.population 
+    && scotland.population > northernIreland){
+        console.log("Scotland has the largest population")
+}
+else if(scotland.population < england.population && scotland.population < wales.population 
+    && scotland.population < northernIreland) {
+        console.log("Scotland is has the smallest population");
+}
+else {
+    console.log("Scotlands population is somewhere in the middle...");
+}
+
+// experimneting with a for loop
 for(country in unitedKingdom){
     if (scotland.population > unitedKingdom[country].population){
         console.log("Scotland has a larger population than " + unitedKingdom[country].name + "!");
@@ -82,16 +96,4 @@ for(country in unitedKingdom){
     else {
         console.log("Are you sure you comapred...")
     }
-}
-
-if(scotland.population > england.population && scotland.population > wales.population 
-    && scotland.population > northernIreland){
-        console.log("Scotland has the largest population")
-}
-else if(scotland.population < england.population && scotland.population < wales.population 
-    && scotland.population < northernIreland) {
-        console.log("Scotland is has the smallest population");
-}
-else {
-    console.log("Scotlands population is somewhere in the middle...");
 }

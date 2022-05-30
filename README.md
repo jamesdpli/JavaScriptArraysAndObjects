@@ -18,4 +18,4 @@ Before you start you should copy the files to a new directory and initialise a G
  - `objects.js ✅` 
 
 ## Extensions 
-  - `advanced.js✅`
+  - `advanced.js ✅`

@@ -14,8 +14,8 @@ Some of these exercises can be done using the methods we covered in class, some 
 Before you start you should copy the files to a new directory and initialise a Git repository there. Make a commit after each exercise you complete and make sure to push to GitHub when you're done!
 
 ## MVP
- - `arrays.js`
- - `objects.js`
+ - `arrays.js ✅` 
+ - `objects.js ✅` 
 
 ## Extensions 
   - `advanced.js`

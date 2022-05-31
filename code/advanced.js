@@ -3,7 +3,6 @@
  * here you will need to combine what you know about both to complete the tasks.
  */
 
-
 unitedKingdom = [
     {
         name: "Scotland",
@@ -83,15 +82,15 @@ else {
 }
 
 // experimneting with a for loop
-for(country in unitedKingdom){
-    if (scotland.population > unitedKingdom[country].population){
-        console.log("Scotland has a larger population than " + unitedKingdom[country].name + "!");
+for(countryIndex in unitedKingdom){
+    if (scotland.population > unitedKingdom[countryIndex].population){
+        console.log("Scotland has a larger population than " + unitedKingdom[countryIndex].name + "!");
     } 
-    else if (scotland.population < unitedKingdom[country].population){
-        console.log("Scotland has a smaller population than " + unitedKingdom[country].name + "!");
+    else if (scotland.population < unitedKingdom[countryIndex].population){
+        console.log("Scotland has a smaller population than " + unitedKingdom[countryIndex].name + "!");
     }
-    else if (scotland.population === unitedKingdom[country.population]){
-        console.log("Scotland has the same population as " + unitedKingdom[country].name + "!");
+    else if (scotland.population === unitedKingdom[countryIndex.population]){
+        console.log("Scotland has the same population as " + unitedKingdom[countryIndex].name + "!");
     }
     else {
         console.log("Are you sure you comapred...")
